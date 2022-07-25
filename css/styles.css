@@ -11,21 +11,13 @@ body {
 	height: 100%;
 	width: 100%;
 	margin: 0;
-	background: url(../images/Group_21_1_1.gif) no-repeat;
+	background: url(../images/Group_21_1.gif) no-repeat;
 	background-size: cover;
 	background-color: #000;
 
 }
 
-@media (min-width:350px) {
 
-	body {
-		height: 100%;
-		width: 100%;
-		background: url(../images/Group_21_1_1.gif) no-repeat;
-	}
-
-}
 
 
 .ie body {
@@ -319,6 +311,12 @@ footer span {
 }
 
 @media(max-width:420px) {
+
+	body {
+		height: 100%;
+		width: 100%;
+		background: url(../images/Group_21_1.gif) no-repeat;
+	}
 	h1 {
 		float: initial;
 		text-align: center;
