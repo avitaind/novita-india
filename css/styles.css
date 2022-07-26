@@ -29,6 +29,10 @@ body {
 		display: none;
 	}
 
+	.logo {
+		width: 350px!important;
+	}
+
 }
 
 
