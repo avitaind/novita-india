@@ -1,9 +1,9 @@
-@import url('http://fonts.cdnfonts.com/css/orbitron?styles=670,671,669,668');
+@import url('http://fonts.cdnfonts.com/css/orbitron?styles=670');
 
 body {
 	color: #FFF;
 	font-family: 'Orbitron', sans-serif;
-
+	
 	min-width: 960px;
 	top: 0;
 	left: 0;
