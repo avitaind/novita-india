@@ -4,7 +4,8 @@ Note: Please use our back link in your site
 */
 $(function () {
   // Add background image
-  $.backstretch('images/Group_21_1_1.gif');
+  // $.backstretch('images/Group_21_1_1.gif');
+  // $.backstretch('images/Group_21_1_1.jpg');
 
   var endDate = "Aug  15, 2022 12:00:00";
 

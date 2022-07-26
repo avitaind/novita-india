@@ -3,7 +3,6 @@
 body {
 	color: #FFF;
 	font-family: 'Orbitron', sans-serif;
-	
 	min-width: 960px;
 	top: 0;
 	left: 0;
@@ -11,12 +10,43 @@ body {
 	height: 100%;
 	width: 100%;
 	margin: 0;
-	background: url(../images/Group_21_1.gif) no-repeat;
+	/* background: url(../images/Group_21_1.gif) no-repeat; */
 	background-size: cover;
 	background-color: #000;
 
 }
 
+/* Mobile */
+
+@media (min-width:320px) {
+	.home {
+		background-image: url('/images/mob_bg.jpg');
+		/* background-image: url('/images/Group_21_1.gif'); */
+		background-repeat: no-repeat;
+	}
+
+	.hidden-md {
+		display: none;
+	}
+
+}
+
+
+/* Desktop */
+
+
+
+@media (min-width:1025px) {
+	.home {
+		background-image: url('/images/Group_21_1_1.jpg');
+		/* background-image: url('/images/Group_21_1_1.gif'); */
+		background-repeat: no-repeat;
+	}
+
+	.hidden-sm {
+		display: none;
+	}
+}
 
 
 
@@ -232,7 +262,7 @@ a:hover {
 }
 
 .styled {
-	margin-bottom: 90px;
+	margin-bottom: 0px;
 }
 
 .styled div {
@@ -244,13 +274,13 @@ a:hover {
 	margin: 0 25px;
 	width: 100px;
 	padding: 30px;
-	border-radius: 80px;
-	background: rgba(255, 255, 255, 0.26);
+	/* border-radius: 80px; */
+	/* background: rgba(255, 255, 255, 0.26); */
 	height: 100px;
-	background: none repeat scroll 0% 0% rgba(255, 255, 255, 0.15);
+	/* background: none repeat scroll 0% 0% rgba(255, 255, 255, 0.15); */
 	text-shadow: none;
 	vertical-align: middle;
-	border: 1px solid rgba(255, 255, 255, 0.76);
+	/* border: 1px solid rgba(255, 255, 255, 0.76); */
 }
 
 #overlay {
@@ -317,6 +347,7 @@ footer span {
 		width: 100%;
 		background: url(../images/Group_21_1.gif) no-repeat;
 	}
+
 	h1 {
 		float: initial;
 		text-align: center;
