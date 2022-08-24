@@ -7,7 +7,7 @@ $(function () {
   // $.backstretch('images/Group_21_1_1.gif');
   // $.backstretch('images/Group_21_1_1.jpg');
 
-  var endDate = "Aug  30, 2022 12:00:00";
+  var endDate = "Aug  31, 2022 12:00:00";
 
   $('.countdown.simple').countdown({
     date: endDate
