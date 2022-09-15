@@ -20,7 +20,7 @@ body {
 
 @media (min-width:320px) {
 	.home {
-		background-image: url('/images/mob_bg.jpg');
+		/* background-image: url('/images/mob_bg.jpg'); */
 		/* background-image: url('/images/Group_21_1.gif'); */
 		background-repeat: no-repeat;
 	}
@@ -42,7 +42,7 @@ body {
 
 @media (min-width:1025px) {
 	.home {
-		background-image: url('/images/Group_21_1_1.jpg');
+		/* background-image: url('/images/Group_21_1_1.jpg'); */
 		/* background-image: url('/images/Group_21_1_1.gif'); */
 		background-repeat: no-repeat;
 	}
